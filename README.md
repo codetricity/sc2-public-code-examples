@@ -63,6 +63,7 @@ Working commands:
 * takeAndDownload - take picture and download using osc/state to get file URL
 * setExposureDelayFive - set self-timer to five
 * setExposureDelayZero - turn off self-timer
+* setHdr - [public API reference](https://api.ricoh/docs/theta-web-api-v2.1/options/_filter/)
 
 ## Explanation
 

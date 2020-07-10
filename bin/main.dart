@@ -13,26 +13,21 @@ import 'package:apitest/scratch/test.dart';
 import 'package:apitest/download_file_from_state.dart';
 import 'package:apitest/options/set_exposure_delay_five.dart';
 import 'package:apitest/options/set_exposure_delay_zero.dart';
-import 'package:apitest/options/get_timeshift.dart';
-import 'package:apitest/options/set_capture_preset.dart';
 import 'package:apitest/options/set_hdr.dart';
 
-
 /// Official API reference https://api.ricoh/docs/theta-web-api-v2.1/protocols/info/
-
 
 void printUsage() {
   print("\n  usage: dart bin/main.py command");
   print("    command must be one of the following:");
   print("    info, state, takePicture, listFiles, getOptions, downloadFile \n");
-  print("    getMetadata, firmware, downloadReady, takeAndDownload, setExposureDelayFive \n");
-  print("    setExposureDelayZero, setCapturePreset, setHdr");
+  print(
+      "    getMetadata, firmware, downloadReady, takeAndDownload, setExposureDelayFive \n");
+  print("    setExposureDelayZero, setHdr");
   print("    example: dart bin/main.py info \n");
 }
 
 void main(List<String> args) async {
-
-
   var parser = ArgParser();
   parser.parse(args);
 
@@ -41,7 +36,7 @@ void main(List<String> args) async {
   } else {
     switch (args[0]) {
 
-      /// test case is for scratch data that you can 
+      /// test case is for scratch data that you can
       /// throw away after you run an API test
       case "test":
         {
@@ -86,7 +81,7 @@ void main(List<String> args) async {
           getOptions();
         }
         break;
-      
+
       case "downloadFile":
         {
           /// download a single file
@@ -119,7 +114,7 @@ void main(List<String> args) async {
           takeAndDownload();
         }
         break;
-      
+
       case "setExposureDelayFive":
         {
           setExposureDelayFive();
@@ -132,25 +127,11 @@ void main(List<String> args) async {
         }
         break;
 
-      case "getTimeShift":
-        {
-          getTimeShift();
-        }
-        break;
-
-      case "setCapturePreset":
-        {
-          setPreset();
-        }
-        break;
-
       case "setHdr":
         {
           setHdr();
         }
         break;
-
-
 
       default:
         {
