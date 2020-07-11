@@ -1,6 +1,4 @@
 import 'package:http/http.dart' as http;
-import 'dart:io';
-import 'dart:convert';
 import 'package:apitest/pretty_print.dart';
 
 void getInfo() async {
