@@ -1,6 +1,8 @@
 import 'package:http/http.dart' as http;
 import 'package:apitest/pretty_print.dart';
 
+/// https://api.ricoh/docs/theta-web-api-v2.1/protocols/info/
+
 void getInfo() async {
   // test data to return a single JSON objects from Internet
   // String url = 'https://swapi.co/api/people/1';
