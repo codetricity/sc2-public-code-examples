@@ -10,6 +10,16 @@ The SC2 API differs from the API for the V and Z1.  See
 [this](https://theta360.guide/special/sc2/) site for
 more information.
 
+As of July 16, 2020, these are the known issues with the SC2 API:
+
+* listFiles does not return thumbnails even if the parameters are set for thumbnails
+* RICOH SDK does not work reliably with livePreview frames. Will stop of EOF exception
+* livePreview stops when certain commands are issued to the SC2
+* getMetaData does not return correct values
+* status cannot be used with startCapture. 
+
+See the site and written guide for more information.
+
 
 ## Configuration and Installation
 
@@ -29,8 +39,6 @@ Downloading charcode 1.1.3...
 Downloading meta 1.1.8...
 Got dependencies!
 ```
-
-Read about [why we're using Dart](doc/dart-growth/dart.md).
 
 
 ## Usage
@@ -273,3 +281,8 @@ code with a known working API that returns a single JSON object, you can use a p
 
     // String url = 'https://swapi.co/api/people/1';
     // String url = 'https://jsonplaceholder.typicode.com/users/1';
+
+---
+
+
+Read about [why we're using Dart](doc/dart-growth/dart.md).
