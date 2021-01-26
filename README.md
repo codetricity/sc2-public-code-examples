@@ -20,6 +20,8 @@ As of July 16, 2020, these are the known issues with the SC2 API:
 
 See the site and written guide for more information.
 
+The SC2 API is similar to the Z1 API.
+
 
 ## Configuration and Installation
 
