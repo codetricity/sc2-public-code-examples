@@ -79,7 +79,7 @@ Working commands:
 
 response from THETA SC2
 
-![post state](doc/images/post-state.png)
+![post state](docs/images/post-state.png)
 
 
 ### Take Picture Example
@@ -90,7 +90,7 @@ or the new `jsonEncode()` https://api.dart.dev/stable/2.7.1/dart-convert/jsonEnc
 
 
 
-![take picture](doc/images/take-picture.png)
+![take picture](docs/images/take-picture.png)
 
 
 Test from THETA SC2.  OK!
@@ -247,13 +247,13 @@ not supported at the moment.
 For comparison, this is the response from a THETA V.  See the difference in the
 previewFormat information.
 
-![options output](doc/images/preview-format.png)
+![options output](docs/images/preview-format.png)
 
 ## Checking if Camera Picture is Ready to Download
 
-![check camera progress](doc/images/check-camera-progress.png)
+![check camera progress](docs/images/check-camera-progress.png)
 
-![get status](doc/images/camera-status-state.png)
+![get status](docs/images/camera-status-state.png)
 
 
 ## Camera Firmware Tested
@@ -262,7 +262,7 @@ previewFormat information.
 * RICOH THETA SC 1.20
 * V 3.21.1
 
-![sc2 screenshot](doc/images/sc2-screenshot.png)
+![sc2 screenshot](docs/images/sc2-screenshot.png)
 
 
 ## Troubleshooting Camera
@@ -285,4 +285,4 @@ code with a known working API that returns a single JSON object, you can use a p
 ---
 
 
-Read about [why we're using Dart](doc/dart-growth/dart.md).
+Read about [why we're using Dart](docs/dart-growth/dart.md).
