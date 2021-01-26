@@ -2,7 +2,7 @@
 layout: post
 title:  "RICOH THETA WebAPI Versions"
 date:   2021-01-26 5:22:40 -0800
-categories: API versions, s, m15, sc
+categories: api
 ---
 
 There are three versions of the WebAPI.
@@ -13,7 +13,7 @@ There are three versions of the WebAPI.
 
 The specific THETA model support is documented on the [THETA API Introduction](https://api.ricoh/docs/theta-api-introduction/) on the RICOH Developer Connection site.
 
-![api versions](/images/2021_01/api_versions.png)
+![api versions](/sc2-public-code-examples/images/2021_01/api_versions.png)
 
 Most cameras, including the S, SC, V, SC2, SC2, and Z1 use the v2.1 API specification.  This API is easier to
 use as it does not require specifying a session ID.  Images on the camera can be downloaded with a simple
