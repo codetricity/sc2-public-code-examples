@@ -23,8 +23,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   RICOH THETA WebAPI community documents.  Use a HTTP API 
   to communicate with a RICOH THETA 360 camera.  Works from mobile and desktop devices.
   https://theta360.guide
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://codetricity.github.io/sc2-public-code-examples" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/sc2-public-code-examples" # the subpath of your site, e.g. /blog
+url: "https://codetricity.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: theta360dev
 github_username:  theta360developers
 
