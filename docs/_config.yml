@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   to communicate with a RICOH THETA 360 camera.  Works from mobile and desktop devices.
   https://theta360.guide
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://codetricity.github.io/sc2-public-code-examples" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: theta360dev
 github_username:  theta360developers
 
