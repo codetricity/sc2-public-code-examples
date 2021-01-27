@@ -22,6 +22,8 @@ See the site and written guide for more information.
 
 The SC2 API is similar to the Z1 API.
 
+Additional information is on the [blog](https://codetricity.github.io/sc2-public-code-examples/)
+
 
 ## Configuration and Installation
 
