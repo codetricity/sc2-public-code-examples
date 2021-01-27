@@ -1,9 +1,9 @@
 ---
 title:  "RICOH THETA WebAPI Versions"
-tags: API
+tags: version
 date:   2021-01-26 5:22:40 -0800
-categories: api
-cover: https://picsum.photos/seed/theta/300/200
+categories: version
+cover: /images/camera/theta.png
 
 ---
 

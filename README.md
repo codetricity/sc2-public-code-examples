@@ -196,67 +196,6 @@ Response from a THETA SC2 running firmware 1.20 is shown below.
 }
 ```
 
-#### Addtional Options
-
-In my tests, there are significant differences between the THETA V options
-and the options for SC2.  In your tests, you can try each option individually
-to see what is supported.
-
-Note that in the test of the SC2 below, the previewFormat is not returning 
-the correct values.
-
-The payload is:
-
-```javascript
-Map data = {
-    'name': 'camera.getOptions',
-    'parameters': {
-      'optionNames': [
-        "offDelay",
-        "sleepDelay",
-        "remainingSpace",
-        "_colorTemperature",
-        "previewFormat"
-      ]
-    }
-  };
-```
-
-The response from a THETA SC2 running firmware 1.20 is shown below.  Note
-that the `previewFormat` is giving 0 values.  This API is likely
-not supported at the moment.
-
-```javascript
-{
-  "name": "camera.getOpions",
-  "state": "done",
-  "results": {
-    "options": {
-      "offDelay": 65535,
-      "sleepDelay": 65535,
-      "remainingSpace": 2168410112,
-      "_colorTemperature": 2500,
-      "previewFormat": {
-        "width": 0,
-        "height": 0
-      },
-      "framerate": 0
-    }
-  }
-}
-```
-
-For comparison, this is the response from a THETA V.  See the difference in the
-previewFormat information.
-
-![options output](docs/images/preview-format.png)
-
-## Checking if Camera Picture is Ready to Download
-
-![check camera progress](docs/images/check-camera-progress.png)
-
-![get status](docs/images/camera-status-state.png)
-
 
 ## Camera Firmware Tested
 
