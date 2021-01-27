@@ -6,6 +6,7 @@ article_header:
   image:
     src: /images/camera-status-state.png
 cover: /images/camera-status-state.png
+license: false
 ---
 
 

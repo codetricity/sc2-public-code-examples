@@ -6,7 +6,7 @@ article_header:
   image:
     src: /images/preview-format.png
 cover: /images/preview-format.png
-
+license: false
 ---
 
 There is a bug in the preview format.  The preview still works.
