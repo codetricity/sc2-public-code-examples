@@ -1,8 +1,10 @@
 ---
-layout: post
 title:  "RICOH THETA WebAPI Versions"
+tags: API
 date:   2021-01-26 5:22:40 -0800
 categories: api
+cover: https://picsum.photos/seed/theta/300/200
+
 ---
 
 There are three versions of the WebAPI.
